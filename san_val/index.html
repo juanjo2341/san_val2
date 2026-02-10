@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi San Valentín</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="initialScreen">
+        <div class="initial-content">
+            <button id="startButton">❤️</button>
+            <h1 class="para-mi-text">para mi san valentin</h1>
+        </div>
+    </div>
+
+    <div id="mainCard" class="hidden">
+        <div class="card-content">
+            <div class="top-section">
+                <div class="text-side">
+                    <p>Para el amor de mi vida:</p>
+                    <p>Si pudiera elegir un lugar seguro, sería a tu lado.</p>
+                    <p>Cuanto más tiempo estoy contigo más te amo.</p>
+                    <span class="signature">— I Love You!</span>
+                </div>
+                
+                <div class="photo-mosaic-container">
+                    <div class="mosaic-frame">
+                        <img src="foto1.png" alt="Foto 1" class="mosaic-photo">
+                        <img src="foto2.png" alt="Foto 2" class="mosaic-photo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-section">
+                <p id="typedMessage"></p>
+            </div>
+
+            <div class="timer-section">
+                <p class="timer-label">Mi amor por ti comenzó hace...</p>
+                <div id="timer">Cargando...</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
